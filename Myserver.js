@@ -1,7 +1,7 @@
 var http = require ("http");
 
 function process_reuqest(req, res) {
-    var body = "Hi Ran\n"
+    var body = "Hi Ran2\n"
     var content_length = body.length;
     res.writeHead(200,{
         'content-Length' : content_length,
